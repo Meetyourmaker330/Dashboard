@@ -1,0 +1,105 @@
+.audience{
+   @include border;
+   @include cardTitle;
+   padding: 1em;
+   grid-area: audience;
+
+   .audience-graph{
+      width: 98%;
+   }
+}
+.audience__header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 1.5em;
+
+   input{
+      display: none;
+   }
+
+   p{
+      width: 35%;
+      font-size: 18px;
+   }
+
+   .audience__radio{
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
+      font-size: 16px;
+      
+   }
+}
+
+// checkbox
+
+.custom-checkbox{
+   position: absolute;
+   opacity: 0;
+   z-index: -1;
+}
+
+// purple
+.custom-checkbox--total + .total{
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  margin-left: 2.5em;
+  cursor: pointer;
+}
+
+.custom-checkbox--total+ .total::before{
+   content: '';
+   display: inline-block;
+   position: absolute;
+   left: 0;
+   width: 16px;
+   height: 16px;
+   flex-shrink: 0;
+   flex-grow: 0;
+   border: 4px solid #7F7FD5;
+   border-radius: 6px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 50% 50%;
+   cursor: pointer;
+}
+
+.custom-checkbox--total:checked+.total::before {
+   background-image: url(../../images/icons/check-mark-purple..svg);
+   background-size: 50% 50%;
+ }
+
+//  pink
+
+.custom-checkbox--follower + .follower{
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.custom-checkbox--follower+ .follower::before{
+   content: '';
+   display: inline-block;
+   position: absolute;
+   left: 50%;
+   width: 16px;
+   height: 16px;
+   flex-shrink: 0;
+   flex-grow: 0;
+   border: 4px solid #E786D7;
+   border-radius: 6px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 50% 50%;
+   cursor: pointer;
+}
+
+.custom-checkbox--follower:checked+.follower::before {
+   background-image: url(../../images/icons/check-mark-pink.svg);
+   background-size: 50% 50%;
+ }

@@ -1,0 +1,49 @@
+.reach{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   grid-area: reach;
+   padding: 1em;
+
+   @include border;
+   @include cardTitle;
+
+   h3{
+      width: 100%;
+      height: 20%;
+   }
+}
+.each__diagram{
+   width: 55%;
+}
+.reach__list{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 40%;
+   height: 50px;
+   padding-left: 1em;
+   font-size: 15px;
+}
+.reach li:first-child::before{
+   content: '';
+   position: absolute;
+   left: -25px;
+   display: block;
+   width: 16px;
+   height: 16px;
+   border-radius: 5px;
+   background-color: #E786D7;
+}
+
+.reach li:last-child::before{
+   content: '';
+   position: absolute;
+   left: -25px;
+   display: block;
+   width: 16px;
+   height: 16px;
+   border-radius: 5px;
+   background-color: #7F7FD5;
+}

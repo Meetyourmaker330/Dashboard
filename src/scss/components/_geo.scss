@@ -1,0 +1,28 @@
+.geo{
+   grid-area: geo;
+   padding: 1em;
+   @include border;
+  
+   h3{
+      @include cardTitle;
+   }
+}
+
+.geo__header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: .5em;
+   margin-bottom: 1em;
+
+   a{
+      color: $primary-color;
+      text-decoration: none;
+      margin-left: 1em;
+      font-weight: bold;
+   }
+}
+
+.progress-bar{
+   width: 95%;
+}

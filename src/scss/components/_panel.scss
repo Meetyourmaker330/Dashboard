@@ -1,0 +1,17 @@
+.panel{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: 80px 150px 250px 250px;
+   grid-gap: 2em;
+   grid-template-areas: 
+       'header header header'
+       'left-card middle-card right-card'
+       'audience audience reach'
+       'gender gender geo'
+   ;
+
+   width: 100%;
+   padding: 2em;
+   background-color: $background-color;
+}
+
