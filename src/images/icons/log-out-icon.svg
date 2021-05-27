@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L26 0L26 26L0 26L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="log_out_icon_153555">
+    <path d="M0 0L26 0L26 26L0 26L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M9.75 8.66667L15.1667 4.33333L9.75 0L9.75 3.25L0 3.25L0 5.41667L9.75 5.41667L9.75 8.66667L9.75 8.66667Z" transform="translate(3.25 8.666667)" id="Shape" fill="#000000" fill-rule="evenodd" stroke="none" />
+      <path d="M11.9167 0L2.16667 0C0.97175 0 0 0.97175 0 2.16667L0 6.5L2.16667 6.5L2.16667 2.16667L11.9167 2.16667L11.9167 17.3333L2.16667 17.3333L2.16667 13L0 13L0 17.3333C0 18.5283 0.97175 19.5 2.16667 19.5L11.9167 19.5C13.1116 19.5 14.0833 18.5283 14.0833 17.3333L14.0833 2.16667C14.0833 0.97175 13.1116 0 11.9167 0L11.9167 0Z" transform="translate(8.666668 3.25)" id="Shape" fill="#000000" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>
