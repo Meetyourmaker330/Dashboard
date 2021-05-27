@@ -1,0 +1,48 @@
+.mob-menu{
+   display: flex;
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 80vh;
+   background-color: #4D4D4D;
+   padding: 1em;
+
+   z-index: 150;
+   transform: translateX(100%);
+   transition: all 0.3s ease 0.3s;
+
+}
+.active{
+   transform: translateX(0);
+}
+
+.mob-menu__list{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: repeat(7, 60px);
+   grid-row-gap: 1em;
+   width: 100%;
+   padding-top: 1em;
+}
+.mob-menu__item{
+   width: 100%;
+   height: 100%;
+}
+.mob-menu__link{
+   display: flex;
+   align-items: center;
+   width: 40%;
+   height: 100%;
+
+   font-size: calc(12px + 1.5vw);
+   font-weight: 700;
+   text-decoration: none;
+   color: #7F7FD5;
+}
+
+.mob__icon{
+   fill: #CACACA;
+   transform: fill ease .5s;
+   margin-right: 1em;
+}

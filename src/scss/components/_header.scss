@@ -95,7 +95,10 @@
 
 .burger-menu{
    display: none;
+   position: fixed;
    position: relative;
+   right: 5%;
+   top: 7%;
    width: 40px;
    height: 30px;
    cursor: pointer;
@@ -128,4 +131,17 @@
       bottom: 0;
    }
 
+}
+.active span{
+  transform: scale(0) translate(0px, -50%);
+}
+
+.active::before{
+   top: 50%;
+   transform: rotate(-45deg) translate(0px, -50%);
+}
+
+.active::after{
+   bottom: 50%;
+   transform: rotate(45deg) translate(0px, 50%);
 }
