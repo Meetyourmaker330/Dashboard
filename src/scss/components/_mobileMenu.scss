@@ -7,7 +7,6 @@
    height: 100vh;
    background-color: #4D4D4D;
    padding: 1em;
-
    z-index: 150;
    transform: translateX(100%);
    transition: all 0.3s ease 0.3s;
@@ -23,6 +22,7 @@
    grid-template-rows: repeat(7, 60px);
    grid-row-gap: 1em;
    width: 100%;
+   height: 100%;
    padding-top: 1em;
 }
 .mob-menu__item{
